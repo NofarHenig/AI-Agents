@@ -2,43 +2,67 @@
 
 🚀 Focus: AI + Developer Productivity + System Design
 
-An AI-driven development assistant that eliminates redundant prompting by performing structured technical discovery upfront.
+A practical approach to working with AI coding tools more efficiently by defining technical context upfront.
 
-This tool ensures consistent, environment-aware outputs by locking key constraints such as programming language, frameworks, and architecture before generation begins.
+Instead of repeatedly explaining the same constraints, this project introduces a structured way to ensure AI-generated outputs are consistent, accurate, and aligned with the development environment.
 
 ---
 
 ## The Problem
 
-AI coding tools often produce inconsistent or inaccurate results due to missing context.
+When working with AI tools, developers often:
 
-Developers repeatedly:
-- Re-explain the same constraints
-- Fix incorrect assumptions
-- Lose time on iteration cycles
+- Repeat the same context (language, framework, architecture)
+- Get inconsistent or partially incorrect outputs
+- Waste time fixing assumptions made by the AI
 
-This creates friction and reduces the real productivity gains of AI tools.
+This leads to unnecessary iteration and reduced productivity.
 
 ---
 
-## The Solution
+## The Approach
 
-This project introduces a "context locking" mechanism:
+This project focuses on solving that by:
 
-- Performs initial structured discovery
-- Captures technical constraints upfront
-- Enforces consistency across all outputs
+- Defining technical context at the beginning
+- Capturing key constraints once
+- Reusing them across all interactions
 
-The result: fewer iterations, higher accuracy, and faster development cycles.
+The goal is simple:
+Make AI outputs more reliable without repeating yourself.
 
 ---
 
 ## Key Concepts
 
-- Context Discovery Layer
-- Constraint Locking
-- Environment-Aware Output Generation
-- Reduction of Prompt Iteration Cycles
+- Structured context definition
+- Constraint awareness
+- Consistent output generation
+- Reduced iteration cycles
+
+---
+
+## Example Flow
+
+### Input
+
+"I need a backend service in .NET for handling payments with Stripe"
+
+### Context Defined
+
+- Language: C#
+- Framework: .NET Core
+- Domain: Payments
+- External Service: Stripe
+
+### Result
+
+All outputs follow:
+- .NET conventions
+- Proper API structure
+- Correct integration assumptions
+
+Without needing repeated prompting.
 
 ---
 
@@ -46,15 +70,15 @@ The result: fewer iterations, higher accuracy, and faster development cycles.
 
 - AI Tools: Claude / GPT / Cursor / Copilot
 - Backend: .NET
-- Architecture: Modular / Extensible Design
+- Focus: Workflow design rather than heavy implementation
 
 ---
 
-## How It Works
+## Why This Matters
 
-1. Define initial technical context
-2. Lock constraints (language, frameworks, environment)
-3. Generate outputs with enforced consistency
+This is not another AI tool.
+
+It’s a way to work better with existing tools by introducing structure where it's usually missing.
 
 ---
 
